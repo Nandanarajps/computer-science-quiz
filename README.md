@@ -1,48 +1,70 @@
-# Computer Science Quiz
+Computer Science Quiz App
 
-A simple and interactive Computer Science multiple-choice quiz website built using **HTML, CSS, and JavaScript**.
+A browser-based multiple-choice quiz application built as part of the Roadmap.sh Quiz App project.
 
-## Project URL
+Project
 
-https://computer-science-quiz.vercel.app/
+Roadmap.sh project page:
 
-## Features
+https://roadmap.sh/projects/quiz-app
 
-* Start Quiz
-* Multiple-choice questions
-* 60-second timer for each question
-* Correct answer highlighted in green
-* Wrong answer highlighted in red
-* Correct answer displayed
-* Score tracking
-* Score decreases by 1 when time expires
-* Final score and results
-* Restart Quiz option
-* Responsive design
+Features
 
-## Technologies Used
+Start screen with quiz details and a Start button.
 
-* HTML
-* CSS
-* JavaScript
+Multiple-choice questions displayed as cards.
 
-## Project Structure
+Answer choices are presented as buttons.
 
-```text
-computer-science-quiz/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+Selected answers are shown as correct (green) or incorrect (red).
 
-## How to Run
+The correct answer is displayed after an answer is selected.
 
-1. Clone or download the repository.
-2. Open the project folder in VS Code.
-3. Open `index.html`.
-4. Run the project using Live Server.
+Score increases when the user selects the correct answer.
 
-## Live Project
+Final score is displayed when the quiz is completed.
 
-[Open Computer Science Quiz](https://computer-science-quiz.vercel.app/)
+Quiz results are shown at the end.
+
+Optional one-minute timer can be used for each question.
+
+If the timer expires, the question is skipped and the score is decreased by 1.
+
+How to Run
+
+Clone or download this repository.
+
+Open the project folder.
+
+Open the main HTML file in a web browser.
+
+If the project uses a local development server, run it using the project's configured command.
+
+Quiz Data
+
+The quiz questions can be stored in JSON format. Each question contains the question text, answer choices, and the correct answer.
+
+Example:
+
+{
+  "question": "Which language is primarily used to structure web pages?",
+  "options": ["CSS", "HTML", "JavaScript", "Python"],
+  "answer": "HTML"
+}
+
+Technologies
+
+HTML
+
+CSS
+
+JavaScript
+
+JSON
+
+Roadmap.sh
+
+This project was created following the requirements of the Roadmap.sh Quiz App project.
+
+Project URL:
+https://roadmap.sh/projects/quiz-app
